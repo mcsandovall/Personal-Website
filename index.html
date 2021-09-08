@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mario's Home Page</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="ProfilePicture.jpeg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">QUALIFICATIONS</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">CONTACT ME</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Mario Sandoval</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed sodales augue, ac interdum urna. Aliquam vel turpis sapien. Aenean dapibus eget libero quis sollicitudin.
+                    Sed sit amet varius turpis, eu aliquet ligula. Nullam vel ipsum tellus. Maecenas a viverra lorem, in mattis purus. Praesent neque risus, tincidunt eu fringilla vel, dignissim eu augue.
+                </p>
+                <a href="#" class="hero-btn">About Me</a>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "200px";
+            }
+
+        </script>
+    </body>
+</html>
