@@ -81,3 +81,34 @@ nav img{
     font-size: 62px;
     font-family: "Montserrat";
 }
+
+.content{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 100px;
+}
+
+.information-text{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.information-text h2{
+    margin: 0 0 0 190px;
+    line-height: 40px;
+}
+
+.information-img{
+    width: 49%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.information-img img{
+    width: 100%;
+}
