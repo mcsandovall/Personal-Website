@@ -43,6 +43,8 @@ nav img{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
+    background: #500000;
+    border-radius: 10px;
     position: relative;
 }
 
@@ -84,6 +86,7 @@ nav img{
 
 .text-box h1{
     font-size: 62px;
+    font-family: "Montserrat";
 }
 
 .text-box p{
@@ -200,4 +203,34 @@ nav .fa{
 
 .aboutMe-col:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+}
+
+/* ----- footer ---- */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    color: #500000;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+
+.icons .fa{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.credits{
+    width: auto;
+    text-align: center;
+    background: #500000;
+    color: #fff;
+    font-weight: 300;
 }
