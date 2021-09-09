@@ -4,14 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mario's Home Page</title>
         <link rel="stylesheet" href="/styles.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css">        
     </head>
     <body>
         <section class="header">
             <nav>
-                <a href="index.html"><img src="ProfilePicture.jpeg"></a>
+                <a href="index.html"><img src="TAM-Stack.png"></a>
                 <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="#">PORTFOLIO</a></li>
                         <li><a href="#">QUALIFICATIONS</a></li>
@@ -19,10 +19,11 @@
                         <li><a href="#">CONTACT ME</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
+                <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
             </nav>
 
             <div class="text-box">
+                <img src="ProfilePicture.jpeg">
                 <h1>Mario Sandoval</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed sodales augue, ac interdum urna. Aliquam vel turpis sapien. Aenean dapibus eget libero quis sollicitudin.
@@ -32,6 +33,43 @@
             </div>
         </section>
 
+                <!-- About Me-->
+        <section class="aboutMe">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed sodales augue, ac interdum urna. Aliquam vel turpis sapien. Aenean dapibus eget libero quis sollicitudin.
+            Sed sit amet varius turpis, eu aliquet ligula. Nullam vel ipsum tellus. Maecenas a viverra lorem, in mattis purus. Praesent neque risus, tincidunt eu fringilla vel, dignissim eu augue.
+            </p>
+            <div class="row">
+                <div class="aboutMe-col">
+                    <h3>Hobbies</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="aboutMe-col">
+                    <h3>Interest</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="aboutMe-col">
+                    <h3>Myslef in 10 years</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer">
+            <h4>Contact Me</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </section>
+        
+
+                    <!-- Javascript for toggle menu-->
         <script>
             var navLinks = document.getElementById("navLinks");
 
@@ -40,7 +78,7 @@
             }
 
             function hideMenu(){
-                navLinks.style.right = "200px";
+                navLinks.style.right = "-200px";
             }
 
         </script>
