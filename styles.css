@@ -44,7 +44,6 @@ nav img{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    background: #500000;
     border-radius: 10px;
     position: relative;
 }
@@ -60,7 +59,7 @@ nav img{
     content: ' ';
     width: 0%;
     height: 2px;
-    background: #500000;
+    background: #fff;
     display: block;
     margin: auto;
 }
