@@ -70,7 +70,7 @@ nav img{
 .switch{
     position: relative;
     display: inline-block;
-    width: 85px;
+    width: 65px;
     height: 35px;
     margin: 0 10px;
 }
@@ -106,7 +106,7 @@ input:checked + .slider{
 }
 
 input:checked + .slider::before{
-    transform: translateX(50px);
+    transform: translateX(30px);
 }
 
 /* this is the text for at the front */
@@ -331,3 +331,9 @@ nav .fa{
     background: transparent;
     color: #500000;
 }
+
+.red-btn:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
