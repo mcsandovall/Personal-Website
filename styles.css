@@ -277,3 +277,57 @@ nav .fa{
     color: #fff;
     font-weight: 300;
 }
+
+
+/* ----- Portofolio Page Style -------------- */
+.pictureframe-portfolio{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    background-image: url("pankaj-patel-_SgRNwAVNKw-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+}
+
+.pictureframe-portfolio h1{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 62px;
+    font-family: "Montserrat";
+}
+
+.portfolio{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.portfolio-col{
+    flex-basis: 48%;
+    padding: 0 2px;
+}
+
+.portfolio-col img{
+    width: 100%;
+}
+
+.portfolio-col h1{
+    padding-top: 0;
+    font-family: "Montserrat";
+}
+
+.portfolio-col p{
+    padding: 15px 0 25px;
+}
+
+.red-btn{
+    border: 1px solid #500000;
+    background: transparent;
+    color: #500000;
+}
