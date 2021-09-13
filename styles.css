@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+:root{
+    --primary-color: #500000;
+    --secondary-color: #fff;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -18,7 +27,7 @@ nav{
     padding: 2%;
     justify-content: space-between;
     align-items: center;
-    background: #500000;
+    background: var(--primary-color);
 }
 
 nav img{
@@ -56,6 +65,51 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+/* --- this is the toggle switch --- */
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.switch input{display: none}
+
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    bottom: 5px;
+    left: 5px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+input:checked + .slider{
+    background-color: rgb(8, 0, 0);
+}
+
+input:checked + .slider::before{
+    transform: translateX(50px);
+}
+
+/* this is the text for at the front */
 
 .text-box{
     width: 90%;
