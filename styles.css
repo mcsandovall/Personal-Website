@@ -16,7 +16,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url("Tamu-aerial.png"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-image: url("imgs/Tamu-aerial.png"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
     position: relative;
@@ -284,7 +284,7 @@ nav .fa{
     min-height: 50vh;
     width: 100%;
     display: flex;
-    background-image: url("pankaj-patel-_SgRNwAVNKw-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-image: url("imgs/pankaj-patel-_SgRNwAVNKw-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
 }
