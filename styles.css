@@ -70,8 +70,8 @@ nav img{
 .switch{
     position: relative;
     display: inline-block;
-    width: 110px;
-    height: 60px;
+    width: 85px;
+    height: 35px;
     margin: 0 10px;
 }
 
@@ -82,7 +82,7 @@ nav img{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #ccc;
+    background-color: #000106;
     transition: .4s;
     border-radius: 34px;
 }
@@ -92,8 +92,8 @@ nav img{
 .slider::before{
     position: absolute;
     content: "";
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     bottom: 5px;
     left: 5px;
     background-color: white;
@@ -102,7 +102,7 @@ nav img{
 }
 
 input:checked + .slider{
-    background-color: rgb(8, 0, 0);
+    background-color: #ccc;
 }
 
 input:checked + .slider::before{
