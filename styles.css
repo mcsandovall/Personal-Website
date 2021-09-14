@@ -278,6 +278,10 @@ nav .fa-home{
     padding: 18px 0;
 }
 
+.icons a{
+    color: #500000;
+}
+
 .credits{
     width: auto;
     text-align: center;
