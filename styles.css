@@ -380,6 +380,10 @@ nav .fa-home{
     padding-bottom: 50px;
 }
 
+.qualifications img{
+    border-style: solid;
+}
+
 .resume{
     text-align: center;
     font-family: "Montserrat";
