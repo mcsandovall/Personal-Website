@@ -352,7 +352,7 @@ nav .fa-home{
     min-height: 50vh;
     width: 100%;
     display: flex;
-    background-image: url("damian-zaleski-RYyr-k3Ysqg-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-image: url("imgs/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
 }
@@ -416,7 +416,7 @@ nav .fa-home{
     min-height: 50vh;
     width: 100%;
     display: flex;
-    background-image: url("hannah-busing-Zyx1bK9mqmA-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-image: url("imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
 }
