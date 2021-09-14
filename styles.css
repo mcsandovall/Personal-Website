@@ -155,8 +155,16 @@ input:checked + .slider::before{
     transition: 1s;
 }
 
-nav .fa{
+nav .fa-times-circle{
     display: none;
+}
+
+nav .fa-chevron-circle-down{
+    display: none;
+}
+
+nav .fa-home{
+    font-size: 30px;
 }
 
 @media(max-width: 700px){
@@ -400,4 +408,52 @@ nav .fa{
     padding-top: 40px;
     padding-bottom: 20px;
     color: #500000;
+}
+
+/*      --Service--     */
+
+.pictureframe-service{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    background-image: url("hannah-busing-Zyx1bK9mqmA-unsplash.jpg"), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+}
+
+.pictureframe-service h1{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 62px;
+    font-family: "Montserrat";
+}
+
+.services{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.service-col{
+    flex-basis: 48%;
+    padding: 0 2px;
+}
+
+.service-col img{
+    width: 100%;
+}
+
+.service-col h1{
+    padding-top: 0;
+    font-family: "Montserrat";
+}
+
+.service-col p{
+    padding: 15px 0 25px;
 }
