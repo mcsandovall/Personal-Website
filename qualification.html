@@ -2,26 +2,130 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mario's Qualification</title>
-        <link rel="stylesheet" href="qualification-style.css">
+        <title>Mario's Qualifications</title>
+        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css">        
     </head>
     <body>
-        <section class="header">
+        <section class="sub-header">
             <nav>
-                <a href="https://www.tamu.edu/"><img src="TAM-Stack-white.png"></a>
+                <a href="https://www.tamu.edu/"><img src="imgs/TAM-Stack-white.png"></a>
                 <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-                        <li><a href="portfolio.html">PORTFILIO</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
                         <li><a href="service.html">SERVICE</a></li>
+                        <!-- <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>  toogle layout if i need it here--> 
                     </ul>
                 </div>
-                <label for="" class="switch"></label>
+                <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
             </nav>
         </section>
-        <section class="pictureframe">
+
+        <!--        Picture Frame               -->
+        <section class="pictureframe-qualification">
             <h1>Qualifications</h1>
         </section>
+
+        <section class="qualifications">
+            <div class="resume">
+                <h1>Current Resume</h1>
+                <iframe src="Resume 2021.pdf" frameborder="0"></iframe>
+            </div>
+            
+            <div class="technical-skills">
+                <h1 class="title-head">Technical Skills</h1>
+                <div class="skill">
+                    <h1>Programming</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="skill">
+                    <h1>Information Technology</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="skill">
+                    <h1>Customer Support</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="interest-areas">
+                <h1 class="title-head">Areas of Interest</h1>
+                <div class="area">
+                    <h1>Cloud Computing</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="area">
+                    <h1>Virtual Reality</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="area">
+                    <h1>Software Engineering</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="area">
+                    <h1>Automation</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--            footer                          -->
+        <section class="footer">
+            <h4>Contact Me</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"><a href="www.linkedin.com/in/mario-sandoval-"></a></i>
+                <i class="fa fa-github"><a href="http://github.com/Mcsandoval"></a></i>
+            </div>
+        </section>
+
+            <!--  ---  This is the toggle switch for the webpage -----   -->
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+        
+                <!--    Credits     -->
+        <section class="credits">
+            <p>Created by Mario Sandoval</p>
+        </section>
+
+                <!-- Javascript for toggle menu (aka mobile)  -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
     </body>
 </html>
