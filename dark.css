@@ -343,21 +343,24 @@ nav .fa-home{
 .portfolio-col h1{
     padding-top: 0;
     font-family: "Montserrat";
+    color: #ccc;
 }
 
 .portfolio-col p{
     padding: 15px 0 25px;
+    color: #fff;
 }
 
-.red-btn{
-    border: 1px solid #500000;
-    background: transparent;
-    color: #500000;
+.portfolio .red-btn{
+    border: 1px solid #ccc;
+    background: #505050;
+    color: #ccc;
 }
 
 .red-btn:hover{
     border: 1px solid #fff;
     color: #fff;
+    background: #000;
 }
 
 
